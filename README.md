@@ -13,4 +13,4 @@ Cons:
 
 I hope that my repo helps you replicate my proudest achivement yet! Have fun!
 
-![](IMG_3437.jpg)
+![](IMG_3437.jpg alt="Picture of finished Upcycler")

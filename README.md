@@ -56,6 +56,8 @@ Oh boy! These aren't parts you'd find walking around your local Micro Center! Yo
 - 28BYJ-48 Stepper Motor x1 (aprox. $3.00)
 - Joystick (any cheap KY-023 clone will work fine) x1 (aprox. $1.67)
 - 128x64 OLED x1 (aprox. $2.70)
+- 12V 40W Ceramic Heater (get one that's meant for Creality Ender 3 printers) x1 (aprox. $1.40)
+- Thermistor (get one that's meant for Creality Ender 3 printers) x1 (aprox. $0.80) 
 - 12V-5V Buck Converter (I bought the B0FJM8XTSD, but any such converter that can handle 5A should work) x1 (aprox. $3.50)
 - USB Type B (for Arduino Unos) x1 (comes with most Arduino Uno R3's)
 - Arduino Uno R3 (I wouldn't buy the real thing, just buy a cheaper clone) x1 (aprox. $7.00)
@@ -72,3 +74,25 @@ Oh boy! These aren't parts you'd find walking around your local Micro Center! Yo
 All parts should run you about $48.43, pre-taxes. 
 
 # Assembly Instructions
+
+Now is the time to put everything together! I'll just go over the order in which you do things, and for attaching all electronic components to the base, just use hot glue and the general layout shown in the picture above.
+
+- Drill 3/16in holes on each of the four corners of the base for the legs
+- Screw legs in using #8-32 0.75in screws
+- Insert all 7 bearings into all 7 bearing slots
+- Insert M8-1.25 60mm screw into the main body's stud bearings: the cap should be on the protruding side
+- Use M8-1.25 hex nut to secure said screw in place
+- Screw Big Gear onto M8 screw
+- Screw another M8 nut onto M8 screw to secure Big Gear in place
+- Insert M8-1.25 60mm screw into short body's stud bearings (again, cap should be on protruding side)
+- Use M8-1.25 hex nut to secure said screw in place
+- Screw Spool Cap onto M8-1.25 screw
+- Use M8-1.25 hex nut to secure Spool Cap in place
+- Use four #6-32 screws to secure spool body onto the Big Gear
+- Secure the Spool Cap (along with the short body) onto the other end of the spool body (using the other four #6-32 screws)
+- Screw 2 #8-32 1in screws into the two outermost slots of each body's base
+- Drill 4 3/16in holes into the base (two for the main body, two for the short body)
+- Slide the two bodies into their slots, and on the belly side of the base, use four #8-32 nuts to secure the screws in place
+- Drill a 3/16in hole for the L-Bracket
+- Use a #8-32 0.75in screw and #8-32 hex nut to secure the L-Bracket on its hole
+- 

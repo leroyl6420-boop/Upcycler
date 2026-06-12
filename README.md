@@ -95,4 +95,29 @@ Now is the time to put everything together! I'll just go over the order in which
 - Slide the two bodies into their slots, and on the belly side of the base, use four #8-32 nuts to secure the screws in place
 - Drill a 3/16in hole for the L-Bracket
 - Use a #8-32 0.75in screw and #8-32 hex nut to secure the L-Bracket on its hole
-- 
+- Use the 1/16in nozzle to attach the CR-10 heat block onto the L-Bracket
+- Secure the thermistor and the ceramic heater into the CR-10 Heat Block
+- Use the USB type B to connect the 12V-5V Buck Converter's USB to the Arduino Uno's big port
+- Use two #8-32 0.75in screws to secure the 28BYJ-48 stepper motor onto the main body (with its driver gear attachment attaced)
+- Insert the small gear and the driven gear, back to back, into the main body's upper bearing slots. The driven gear goes on the protrusion side, and the small gear goes on the Big Gear side. Use the #8-32 1.5in screw (with a nut) to secure them tightly together, such that they can't spin independently. 
+
+# Wiring Instructions
+
+Alright, now is the time to really lock in. Read all the instructions carefully, because one mess-up WILL fry all your components faster than wanton wrappers in hot oil!
+
+- Connect Arduino 5V and Arduino GND to a 5V and GND rail on the breadboard (duh). Then go ahead and connect all the Vcc's and GND's. You can't possibly screw that up. No components use 3.3V, and expand the rails if need be.
+- Joystick VRx goes to Arduino A3
+- Joystick VRy goes to Arduino A2
+- Joystick SW goes to Arduino D4
+- 128x64 OLED SCL goes to Arduino A5
+- 128x64 OLED SDA goes to Arduino A4
+- Connect each end of the thermistor to one of the two-way WAGO connectors. Then insert a jumper wire with a male end and a bare end into the other slot (for each). Of course, the bare end goes in the WAGO. One of the jumper wires goes straight to GND. The other one goes to its own rail. It will the called the thermistor rail.
+- The 50V 1uf capacitor connects the thermistor rail and GND.
+- The 100k ohm resistor connects the thermistor rail and the 5V rail.
+- A jumper wire connects the thermistor rail and A0.
+- Moving on from the thermistor, IN1-4 on the ULN2003 go to Arduino D11-8, respectively.
+- MOSFET TRIG/PWM goes to Arduino D5. You may need to solder this connection.
+- Use the two 3-way WAGOs and 12V 5A rails. One slot connects the rail to the 12V 5A power supply's wire slot attachment, the other connects the rail to the 12V-5V Buck Converter, and the last slot connects the rail to the MOSFET module. You should be able to figure out + and - in and out, as long as you have more than two brain cells.
+- Connect the 12V 40W ceramic heater to MOSFET out(s). 
+
+You have successfully built your very own Upcycler! Feed it 7mm PET plastic strips (around 0.4mm thick) and it'll give you filament to your heart's content!

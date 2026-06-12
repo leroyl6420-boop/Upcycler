@@ -37,4 +37,13 @@ These are the parts you might have lying around if you have a 3D printer, or tha
 
 - Base (cut a 0.3in thick piece of plywood into a 12in x 7in board) x1 (aprox. $1.80)
 - Metal L-Bracket (make sure that the diameter of the holes are 6mm, not 5mm) x1 (aprox. $0.23)
-- 
+- CR-10 Heat Block x1 (aprox $1.25)
+- 1/16in Nozzle (use drill and 1/16in attachment to make your own out of any size) x1 (aprox. $0.50)
+- #8-32 1.5in Screw x1 (aprox. $0.27)
+- #8-32 1in Screw x4 (aprox. $0.40)
+- #8-32 0.75in Screw x7 (aprox. $0.63)
+- #6-32 1in Screw x8 (aprox. $0.64)
+- #8-32 Hex Nut x5 (aprox. $0.45)
+- 608 2RS Bearing x7 (aprox. $2.10)
+- M8-1.25 60mm Half-Thread Screw x2 (aprox. $2.00)
+- M8-1.25 Hex Nut x4 (aprox. $0.72)

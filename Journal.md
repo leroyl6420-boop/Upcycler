@@ -83,3 +83,12 @@ I continued building the Upcycler! I screwed the driven gear and the small gear 
 
 ![A picture of me joining the driven gear and the small gear using a #8-32 1.5in screw](Images/Devlog10A.png)
 ![A picture of me attaching the spool cap and the short body onto the other end of the spool body](Images/Devlog10B.png)
+
+# Devlog 11
+1h 45min 52sec Logged
+
+I finsihed building the Upcycler's electrical system today! I drilled the holes in the base for the bodies of the puller assembly, and I slid the bodies into the holes via their screws. On the belly side of the base, I used #8-32 hex nuts to secure the bodies in place. I hot-glued all of the elecrical components in place, and I got all of the wiring done, shy of the heat block. The heating component is the last part I need to finish. In other news, I found the relay I wanted to use too big, so I replaced it with a MOSFET module. I'll redo the CAD on that part next. 
+
+![A picture of the underside of the Upcycler, with 3 of the 4 hex nuts installed for the screws of the bodies](Images/Devlog11A.png)
+![A picture of me hot-gluing the Arduino Uno in place](Images/Devlog11B.png)
+![A picture of the up-to-date Upcycler!](Images/Devlog11C.png)

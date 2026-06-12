@@ -14,7 +14,7 @@ I started working on my Upcycler project today! I need to make a full 3D model a
 # Devlog 2
 1h 1min 12sec Logged
 
-I worked on the geartrain for my Upcycler! I finished modeling the big gear to fit the spool and the axle, and I'm getting started on the other gears. I've decided to incorporate four gears: the driver gear will be connected to the 28BYJ-48 stepper motor, the driven gear will be above that (at a 24:7 ratio), and the driven gear will be on the same axle the small gear, which will drive the big gear (at a 61:7 ratio). That should result it a roughly 30:1 ratio. Of course, to fit the new axles and gears, I had to change the body of the puller a lot. I removed the mounting holes meant for the original motor, and I made new slots for new bearings. 
+I worked on the geartrain for my Upcycler! I finished modeling the big gear to fit the spool and the axle, and I'm getting started on the other gears. I've decided to incorporate four gears: the driver gear will be connected to the 28BYJ-48 stepper motor, the driven gear will be above that (at a 24:7 ratio), and the driven gear will be on the same axle the small gear, which will drive the big gear (at a 61:7 ratio). That should result it a roughly 30:1 ratio. Of course, to fit the new axles and gears, I had to change the body of the puller a lot. I removed the mounting holes meant for the original motor, and I made new slots for new bearings. You can find the files in the 2nd-CADs branch.
 
 ![Another Picture of Big Gear](Images/BGDevlog2.png) 
 ![Second Picture of Upcycler](Images/Devlog2.png) 
@@ -26,3 +26,13 @@ I finished adapting the body of the puller! I added all the necessary bearing sl
 
 ![Picture of Spool Cap](Images/Devlog3A.png)
 ![Picture of adapted body](Images/Devlog3B.png)
+
+# Devlog 4
+1h 7min 10sec Logged
+
+First, I modeled the short body. I basically just copied the normal body and cut off the top. I used a circle centered on the axle and tangent to the body's sides to mark the roof. Afterwards, I modeled the legs of the Upcycler. I had to match dimensions I estimated in real life. I'm planning to secure them to the wooden base using #8-32 screws. Finally, I started putting everything together in the assembly again. So much has changed since I did this the first time! I had to redo a bunch of stuff. Everything fits perfectly, as per my calculations! I need to move on to modeling the rest of the Upcycler next: the puller is just one of the biggest parts. You can find the CAD files in the 3rd-CADs branch. 
+
+![Picture of short body](Images/Devlog4A.png)
+![Picture of Devlog 4 Assembly](Images/Devlog4B.png)
+
+

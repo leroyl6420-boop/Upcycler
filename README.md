@@ -13,7 +13,7 @@ Cons:
 
 I hope that my repo helps you replicate my proudest achivement yet! Have fun!
 
-![](IMG_3437.jpg)
+![Picture of Upcycler](Images/IMG_3437.jpg)
 
 The following are instructions on how to build the Upcycler yourself:
 

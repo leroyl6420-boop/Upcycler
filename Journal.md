@@ -59,4 +59,11 @@ I found more files for more of the electronics I used online. One of them, the b
 ![A picture of a 2-way WAGO I modeled](Images/Devlog7A.png)
 ![A picture of the assembly with all the parts thus far](Images/Devlog7B.png)
 
+# Devlog 8
+2h 53min 17sec Logged 
 
+Oh, boy! I really locked in for this CAD session! I modeled the rest of the components, by myself!I modeled the relay, the 12V-5V buck converter, the l-bracket, the CR-10 heat block, and I turned the assembly into a simulation! The l-bracket and CR-10 heat block were easy to model, because I just had search up their dimensions online and translate that into a part studio in Onshape. The relay and 12V-5V buck converter were harder. I had them in real life, so I used a digital caliper to measure the individual parts and model them in Onshape to the best of my ability. I got details like filets and chamfers, and I added extrude removes for USB ports, wire ports, and screw ports. Afterwards, I added all the parts to the assembly, and I finished putting everything together! That wasn't it, though! To see how it would really work, I added gear relationships to the revolve mates of the gears, and I saw Onshape simulating the Upcycler running! I'm ready to build the Upcycler now!
+
+![A picture of the 12V-5V buck Converter](Images/Devlog8A.png)
+![A picture of adding simulation to the gears](Images/Devlog8B.png)
+![A picture of the finished assembly](Images/Devlog8C.png)

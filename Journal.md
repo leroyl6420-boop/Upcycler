@@ -67,3 +67,11 @@ Oh, boy! I really locked in for this CAD session! I modeled the rest of the comp
 ![A picture of the 12V-5V buck Converter](Images/Devlog8A.png)
 ![A picture of adding simulation to the gears](Images/Devlog8B.png)
 ![A picture of the finished assembly](Images/Devlog8C.png)
+
+# Devlog 9
+1h 2min 34sec Logged
+
+This was my first building session! First, I drilled four holes at the corners of the wooden base I got to attach the legs. I had printed the legs out beforehand, so I just had to screw them on. Then, I put together the short body. I inserted the bearings, I threaded the M8-1.25 60mm screw, I screwed on a nut, I screwed on the spool cap, and I screwed on a second nut. Afterwards, I put together the axle of the main body. I repeated the same process as the short body, but I used the big gear instead of the spool cap. I then secured the spool body onto the big gear using four #6-32 1in screws. Things are going well so far!
+
+![A picture of the assembled short body, short of the second nut](Images/Devlog9A)
+![A picture of securing the spool body to the big gear on the main body](Images/Devlog9B)

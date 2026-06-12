@@ -99,3 +99,4 @@ I finsihed building the Upcycler's electrical system today! I drilled the holes 
 I updated the assembly to have the MOSFET module instead of the relay! I modeled the MOSFET that I used, and I used it to replace the relay in the assembly. This fit a lot easier now. The updated CAD files are in 6th-CADs (branch).
 
 ![A picture of the MOSFET module I modeled](Images/Devlog12A.png)
+![A picture of the up-to-date CAD assembly](Images/Devlog12B.png)

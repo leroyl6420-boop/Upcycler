@@ -47,3 +47,28 @@ These are the parts you might have lying around if you have a 3D printer, or tha
 - 608 2RS Bearing x7 (aprox. $2.10)
 - M8-1.25 60mm Half-Thread Screw x2 (aprox. $2.00)
 - M8-1.25 Hex Nut x4 (aprox. $0.72)
+
+# Electronic Components
+
+Oh boy! These aren't parts you'd find walking around your local Micro Center! You may purchase them off your favorite online electronic retailer if you'd like, but if you prefer faster shipping (like me!), all these parts are available on Amazon! (Which is also what their prices are based on).
+
+- ULN2003 x1 (comes with most 28BYJ-48 Stepper Motors)
+- 28BYJ-48 Stepper Motor x1 (aprox. $3.00)
+- Joystick (any cheap KY-023 clone will work fine) x1 (aprox. $1.67)
+- 128x64 OLED x1 (aprox. $2.70)
+- 12V-5V Buck Converter (I bought the B0FJM8XTSD, but any such converter that can handle 5A should work) x1 (aprox. $3.50)
+- USB Type B (for Arduino Unos) x1 (comes with most Arduino Uno R3's)
+- Arduino Uno R3 (I wouldn't buy the real thing, just buy a cheaper clone) x1 (aprox. $7.00)
+- 2-Way WAGO x2 (aprox. $0.68)
+- 3-Way WAGO x2 (aprox. $0.86)
+- Small Breadboad x1 (aprox. $1.00)
+- 50V 1uf Capacitor x1 (aprox. $0.40)
+- 100k ohm Resistor x1 (aprox. $0.06)
+- MTSD001 MOSFET Module x1 (aprox. $1.34)
+- 12V 5A Power Supply (buy one that feeds through a jack, and make sure it comes with a female port to plug into that feeds wire connectors) x1 (aprox. $8.00)
+- 16 AWG Wire (unspecified amount and cost)
+- 22/24 AWG Jumper Wires (unspecified amount and cost)
+
+All parts should run you about $48.43, pre-taxes. 
+
+# Assembly Instructions

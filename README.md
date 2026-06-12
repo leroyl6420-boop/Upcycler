@@ -121,3 +121,6 @@ Alright, now is the time to really lock in. Read all the instructions carefully,
 - Connect the 12V 40W ceramic heater to MOSFET out(s). 
 
 You have successfully built your very own Upcycler! Feed it 7mm PET plastic strips (around 0.4mm thick) and it'll give you filament to your heart's content!
+
+AI use: I used ChatGPT to generate the code for the Upcycler because I don't know how to code Arduinos :P 
+Of course, that means I didn't count any hours for coding.

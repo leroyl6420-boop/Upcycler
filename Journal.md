@@ -19,4 +19,10 @@ I worked on the geartrain for my Upcycler! I finished modeling the big gear to f
 ![Another Picture of Big Gear](Images/BGDevlog2.png) 
 ![Second Picture of Upcycler](Images/Devlog2.png) 
 
-#
+# Devlog 3
+1h 4min 57sec Logged
+
+I finished adapting the body of the puller! I added all the necessary bearing slots, I added attachment points for the 28BYJ-48 stepper, and I trimmed a bit off the stud to save filament, save time, and make installment easier. I modeled all three other gears, and I'll put the assembly together soon. however, I decided that I wanted two attachment points for the spool's axle. First, I had to make the other end of the spool capable of taking an axle. I modeled a spool cap by using the same inner ring I used for the big gear. I will be able to add that to the other end of the printed spool. That means I'll need to model a shorter body next, as the second attachment point doesn't need a motor and geartrain, but it does need support. 
+
+![Picture of Spool Cap](Images/Devlog3A)
+![Picture of adapted body](Images/Devlog3B)

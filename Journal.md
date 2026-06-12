@@ -43,4 +43,12 @@ I grinded out models of all the screws that I'll be using! I couldn't find any #
 ![Picture of #8-32 1.5in screw model](Images/Devlog5A.png)
 ![Picture of assembly with screws](Images/Devlog5B.png)
 
+# Devlog 6
+1h 4min 45sec Logged
+
+I added more holes to the base for attaching the puller. The plan is to make the holes around 3/16in wide in diameter in real life, larger than the #8-32 1in screws' diameters, so that there will be room for error while drilling. Then, the screws (and the bodies they wil be securing) will be secured using #8-32 hex nuts. I added the legs to the assembly and attached them to the base as planned. Finally, I found 3D models of a few of the electrical components I used online and added them to the assembly. I don't like them very much, as they are not parasoilds that Onshape can render easily, but I suppose they'll do for now. I think I'll just make my own models in the future. 
+
+![A picture of adding holes to the base](Images/Devlog6A.png)
+![A picture of the assembly with legs and an imported ULN2003 model](Images/Devlog6B.png)
+
 

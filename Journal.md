@@ -35,4 +35,12 @@ First, I modeled the short body. I basically just copied the normal body and cut
 ![Picture of short body](Images/Devlog4A.png)
 ![Picture of Devlog 4 Assembly](Images/Devlog4B.png)
 
+# Devlog 5
+1h 2min 49sec Logged
+
+I grinded out models of all the screws that I'll be using! I couldn't find any #8-32 screw models online that were in parasolid format, so I decided to model them myself! I modeled the #8-32 1.5in, 1in, and 0.75in screws. I also modeled a 1in #6-32 screw. I added them all to the assembly and put them all in place! Afterwards, I added the base to the assembly and added holes to it for the #8-32 screws to secure the legs. Things are really coming together!
+
+![Picture of #8-32 1.5in screw model](Images/Devlog5A.png)
+![Picture of assembly with screws](Images/Devlog5B.png)
+
 

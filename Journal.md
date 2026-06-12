@@ -54,7 +54,7 @@ I added more holes to the base for attaching the puller. The plan is to make the
 # Devlog 7
 1h 0min 22sec Logged 
 
-I found more files for more of the electronics I used online. One of them, the breadboard, was able to be rendered by Onshape, and it looks fine. The other, the OLED, was not able to be rendered by Onshape, and it is another janky-looking part. I still added them to the assembly. I wanted to add the WAGOs next, but I also wanted to avoid weird files, so I modeled the WAGOs myself. I found the dimensions online and even added fillets to make them look more realistic. I think that I'm pretty good at that, so I think I'll model more parts. In the meantime, the assembly is looking more and more complete every Devlog!
+I found more files for more of the electronics I used online. One of them, the breadboard, was able to be rendered by Onshape, and it looks fine. The other, the OLED, was not able to be rendered by Onshape, and it is another janky-looking part. I still added them to the assembly. I wanted to add the WAGOs next, but I also wanted to avoid weird files, so I modeled the WAGOs myself. I found the dimensions online and even added fillets to make them look more realistic. I think that I'm pretty good at that, so I think I'll model more parts. In the meantime, the assembly is looking more and more complete every Devlog! You can find the files in the 4th-CADs branch. 
 
 ![A picture of a 2-way WAGO I modeled](Images/Devlog7A.png)
 ![A picture of the assembly with all the parts thus far](Images/Devlog7B.png)

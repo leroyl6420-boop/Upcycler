@@ -92,3 +92,10 @@ I finsihed building the Upcycler's electrical system today! I drilled the holes 
 ![A picture of the underside of the Upcycler, with 3 of the 4 hex nuts installed for the screws of the bodies](Images/Devlog11A.png)
 ![A picture of me hot-gluing the Arduino Uno in place](Images/Devlog11B.png)
 ![A picture of the up-to-date Upcycler!](Images/Devlog11C.png)
+
+# Devlog 12
+0h 37min 57sec Logged
+
+I updated the assembly to have the MOSFET module instead of the relay! I modeled the MOSFET that I used, and I used it to replace the relay in the assembly. This fit a lot easier now. The updated CAD files are in 6th-CADs (branch).
+
+![A picture of the MOSFET module I modeled](Images/Devlog12A.png)

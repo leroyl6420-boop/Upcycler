@@ -75,3 +75,11 @@ This was my first building session! First, I drilled four holes at the corners o
 
 ![A picture of the assembled short body, short of the second nut](Images/Devlog9A.png)
 ![A picture of securing the spool body to the big gear on the main body](Images/Devlog9B.png)
+
+# Devlog 10
+1h 6min 37sec Logged
+
+I continued building the Upcycler! I screwed the driven gear and the small gear together using a #8-32 1.5in screw, and after attaching a nut, they can no longer spin independently. However, that was before I screwed the base screws onto the body, and the driven gear got in the way of me doing that, so I had to undo my work, screw in the base screws, and put them back on again. In other news, I attached the spool cap (and the short body) onto the other side of the spool body, making our puller assembly complete! Our 28BYJ-48 stepper motor is ready to go, it just needs the electrical components now, which is what we will be working on next!
+
+![A picture of me joining the driven gear and the small gear using a #8-32 1.5in screw](Images/Devlog10A.png)
+![A picture of me attaching the spool cap and the short body onto the other end of the spool body](Images/Devlog10B.png)

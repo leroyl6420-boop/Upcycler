@@ -3,6 +3,8 @@
 Hi! Welcome to my project journal! Before you take a peek, you may realize that the commits do not match the logs. That is because this is literally my first time using Github and I didn't really know how to do a journal for devlogs until I was gonna ship :P
 If you're a reviewer reviewing my project and you really need proof of the devlogs, I wrote quick summaries under each of my timelapses in Lapse, which is also what my devlogs will be based on. If you need anything from me to clear things up, please let me know in any way. I check Slack very often. Sorry for the inconvenience! Thank you for all your hard work :)
 
+NOTE: If you are checking my project out from Stardance, the reason why I have this Journal.md is because this project was started in Horizons. I had to keep my devlogs here because there was no devlog feature on the website. I stopped updating this journal when I moved over to Stardance, and I wrote the rest of my devlogs there. Thanks for the understanding!
+
 # Devlog 1
 1h 0min 27sec Logged
 

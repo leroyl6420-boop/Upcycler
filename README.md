@@ -122,5 +122,4 @@ Alright, now is the time to really lock in. Read all the instructions carefully,
 
 You have successfully built your very own Upcycler! Feed it 7mm PET plastic strips (around 0.4mm thick) and it'll give you filament to your heart's content!
 
-AI use: I used ChatGPT to generate the code for the Upcycler because I don't know how to code Arduinos :P 
-Of course, that means I didn't count any hours for coding.
+AI use: I used ChatGPT in PREVIOUS VERSIONS of the Upcycler (versions 1 and 2) to code the Arduino, as I was less experienced in coding then. However, after attending Horizons Nexus (which was really fun!) I learned a lot more skillz and I coded the Upcycler V3 by myself! Well, I was already familiar with the GPT generated code, and I can't say that I didn't use some ideas from there, but I didn't copy/paste anything and you could basically call it learning at this point ;) anyway I don't think it counts as AI use. 

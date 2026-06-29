@@ -102,3 +102,10 @@ I updated the assembly to have the MOSFET module instead of the relay! I modeled
 
 ![A picture of the MOSFET module I modeled](Images/Devlog12A.png)
 ![A picture of the up-to-date CAD assembly](Images/Devlog12B.png)
+
+# Devlog 13
+49min 20sec Logged
+
+Hi! This is the first devlog for my Upcycler project on Stardance! I started this project in Horizons, but I decided to move over to Stardance after 15 hours of work after seeing how Stardance is more hardware-oriented. To recap the work I did in Horizons, I found a set of 3D files for a body of a Petamentor and adapted them to use a 28BYJ-48 stepper motor. I chose a lot of parts to heat up 7mm strips of PET and control the motor, modeled them on Onshape, bought them in real life, and assembled part of the Upcycler. For this first devlog in Stardance, I started assembling the heating component. I drilled holes in the base to fit the L-bracket that will hold the heat block, and I attached two two-way WAGOs to incorporate a thermistor to track the temperature of the heat block. I added all of the electrical components the thermistor will need. Of course, there is a lot more to my journey than I wrote here. Check out my Github repo to see the entire process (including my work in Horizons!)
+
+![A picture of the in-progress Upcycler](https://stardance.hackclub.com/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NzY5NzcsInB1ciI6ImJsb2JfaWQifX0=--43f8bc8eaad5d601da5c42e0e636f3caf18ae653/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbMTYwMCw5MDBdLCJzYXZlciI6eyJzdHJpcCI6dHJ1ZSwicXVhbGl0eSI6NzV9fSwicHVyIjoidmFyaWF0aW9uIn19--3bc8a2c9d65e3b087c0c0b37dcfb642bb247bc73/IMG_0086.jpg)

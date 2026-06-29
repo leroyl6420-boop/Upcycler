@@ -109,3 +109,81 @@ I updated the assembly to have the MOSFET module instead of the relay! I modeled
 Hi! This is the first devlog for my Upcycler project on Stardance! I started this project in Horizons, but I decided to move over to Stardance after 15 hours of work after seeing how Stardance is more hardware-oriented. To recap the work I did in Horizons, I found a set of 3D files for a body of a Petamentor and adapted them to use a 28BYJ-48 stepper motor. I chose a lot of parts to heat up 7mm strips of PET and control the motor, modeled them on Onshape, bought them in real life, and assembled part of the Upcycler. For this first devlog in Stardance, I started assembling the heating component. I drilled holes in the base to fit the L-bracket that will hold the heat block, and I attached two two-way WAGOs to incorporate a thermistor to track the temperature of the heat block. I added all of the electrical components the thermistor will need. Of course, there is a lot more to my journey than I wrote here. Check out my Github repo to see the entire process (including my work in Horizons!)
 
 ![A picture of the in-progress Upcycler](https://stardance.hackclub.com/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NzY5NzcsInB1ciI6ImJsb2JfaWQifX0=--43f8bc8eaad5d601da5c42e0e636f3caf18ae653/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbMTYwMCw5MDBdLCJzYXZlciI6eyJzdHJpcCI6dHJ1ZSwicXVhbGl0eSI6NzV9fSwicHVyIjoidmFyaWF0aW9uIn19--3bc8a2c9d65e3b087c0c0b37dcfb642bb247bc73/IMG_0086.jpg)
+
+# Devlog 14
+38min Logged 
+
+I finished building the heating component for the Upcycler today! I connected the ceramic heater to the MOSFET module, and I inserted both the heater and the thermistor into the heat block. I secured the heat block onto the L-Bracket using an adapted 0.4mm nozzle (I expanded it to 1/16in). The entire physical build for the Upcycler is complete! I will work on an improved code now!
+
+![A picture of the completed Upcycler V2](https://stardance.hackclub.com/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsiZGF0YSI6Nzg5MzgsInB1ciI6ImJsb2JfaWQifX0=--ed743a26b6d19188c689d22d1dcb9007f76b7217/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbMTYwMCw5MDBdLCJzYXZlciI6eyJzdHJpcCI6dHJ1ZSwicXVhbGl0eSI6NzV9fSwicHVyIjoidmFyaWF0aW9uIn19--3bc8a2c9d65e3b087c0c0b37dcfb642bb247bc73/WIN_20260624_13_15_01_Pro.jpg)
+
+# Devlog 15
+1h 19min 45sec Logged
+
+I finished updating the code for my Upcycler project! I already knew the jist of the things I needed from the AI-generated code I used to use, so I was able to finish everything in just one session.
+The biggest change I made was adding a safety feature for the heating component. If the 6x20mm 12V 40W ceramic heating components I use get too hot, they pose a fire hazard, not to mention the fact that they can damage themselves, the parts around them, and the electrical components they connect to. They can only go up to 350 degrees Celsius before those things start to happen, and my old code allowed operation up to 360 degrees, so I updated the max to be 340 (meaning there’s a 10 degree margin of safety).
+
+I also made a few quality of life changes in the UI.
+
+I listed the current code version and model next to the title
+I labeled the temperature readings in both the main menu and the operating menu with “C” (to clarify that the readings are in degrees Celsius)
+I more clearly labeled the temperature readings in both the main menu and the operating menu as “Current_Temp” to avoid confusion
+-I more clearly labeled the target temperature readings in both the main menu and the operating menu as “Target_Temp” to avoid confusion
+I more clearly labeled the motor reading in the main menu as “Motor_Status” to avoid confusion
+I more clearly labeled the speed reading in the main menu as “Steps/s” to avoid confusion
+I reset the default steps per second to 150 to make usage more convenient
+I reset the default temperature to 210 degrees Celsius to make usage more convenient
+I added notes to the .ino file to guide users when reconstructing the Upcycler
+That was all for the code! I can get back to the good hardware stuff now!
+
+![An image of the Upcycler's OLED in its menu state](https://stardance.hackclub.com/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsiZGF0YSI6Nzk2MjIsInB1ciI6ImJsb2JfaWQifX0=--c97f3ad7eb512e004b6bbd09c4bd8e30ebc963b0/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbMTYwMCw5MDBdLCJzYXZlciI6eyJzdHJpcCI6dHJ1ZSwicXVhbGl0eSI6NzV9fSwicHVyIjoidmFyaWF0aW9uIn19--3bc8a2c9d65e3b087c0c0b37dcfb642bb247bc73/WIN_20260624_18_43_55_Pro.jpg)
+
+# Devlog 16
+47min 55sec Logged
+
+I finished updating the CAD files for my Upcycler project today!
+
+I fixed the problem of the bodies’ legs always cracking when you screw in their screws too tight. I did that by creating notches for their caps to settle in. This should also keep the legs sturdy over long-term wear.
+
+Another problem I’ve had for a while was the bodies not lining up in the assemblies for some reason. I found the root of that problem while improving the legs. The legs were actually slightly offset on the bodies on the x-axis for some reason. I was able to fix that easily when reattaching the legs. Redoing the base to fit this change was more difficult, but a bit of brute force did the trick ;)
+
+I’ll be printing these new parts out now. After replacing the old ones, the Upcycler V3 will be done!
+
+![An image of the improved Short Leg](https://stardance.hackclub.com/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsiZGF0YSI6ODEzNjAsInB1ciI6ImJsb2JfaWQifX0=--97563ff5b964e705485a2eb1d67595e5d348db42/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbMTYwMCw5MDBdLCJzYXZlciI6eyJzdHJpcCI6dHJ1ZSwicXVhbGl0eSI6NzV9fSwicHVyIjoidmFyaWF0aW9uIn19--3bc8a2c9d65e3b087c0c0b37dcfb642bb247bc73/SDDV1.png)
+
+# Devlog 17
+1h 2min Logged
+
+I finished the Upcycler V3 today! YAY!
+
+I started printing the new models I made yesterday this morning. There were only two parts (the main body and the short body) but they still took all day lol :p: .
+
+I also had to fix my 3D printer in between the two prints because it started leaking filament out of its throat and the melted filament dripped onto the prints and left these weird brown streaks.
+
+After the parts were finished I replaced the old parts with the new. That took a whole hour because all the smaller parts are built onto these two biggest parts, and I use very fine mechanical screws (which take a long time to install/remove). The new parts work really well, tho! They solved the old problem of the bases cracking when you screwed in their screws too tight.
+
+Anyway, this is it! I tested the Upcycler V3 and it worked well! Just like its previous versions, you cut PET filament from 2L soda bottles into 7mm wide strips and feed them through the nozzle at 210 C at 150 steps/s.
+
+Check out my GitHub repo if you want to build this yourself! YIPPIEEEEE!
+
+![An image of the completed Upcycler V3](https://stardance.hackclub.com/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsiZGF0YSI6ODU0MjUsInB1ciI6ImJsb2JfaWQifX0=--ac28fe033d202cda3b777461665f6a5c20314696/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbMTYwMCw5MDBdLCJzYXZlciI6eyJzdHJpcCI6dHJ1ZSwicXVhbGl0eSI6NzV9fSwicHVyIjoidmFyaWF0aW9uIn19--3bc8a2c9d65e3b087c0c0b37dcfb642bb247bc73/WIN_20260626_20_21_17_Pro.jpg)
+
+# Devlog 18/Ship 1
+
+I made a simple, affordable, and reliable take on the Petamentor. The Upcycler is a machine that turns plastic water bottles into 3D printing filament.
+
+The process is as follows: smooth out any bumps and ridges on a 2L PET soda bottle using a heat gun. Use a bottle cutter to cut the bottle into a long 7mm wide strip. Cut down one end to a long point, and feed that point through the nozzle of the heat block.
+
+Plug in the Upcycler's 12V 5A power supply and make any changes to the settings you would like in the menu. However, the default settings are what I would personally recommend from extensive testing. Test to make sure that the thermistor is operational by pressing your finger onto the heat block. There should be a change by a degree or two. Select the "motor status" option to put the Upcycler into Running mode. CAUTION: the Upcycler's heat block will get very hot! DO NOT TOUCH IT!!!!!
+
+Wait until the heat block reaches 180 degrees C. Use a pair of pliers to begin pulling the plastic. You only need to pull until the plastic reaches the spool. Weave the plastic through one of the slots on the side of the spool. You may then leave the Upcycler to work on its own. Processing a full 2L soda bottle may take several hours.
+
+Using the pulled PET in your 3D printer will require custom settings from normal PET. Since each 3D printer and brand of bottle will make the settings vary, I cannot give much advice. However, I can recommend making the nozzle hotter, as that seems to be a general theme for homemade PET.
+
+Wow, that was quite the user's manual!
+
+A challenge that I faced while making the Upcycler was the budget. I knew from the start that I wanted something for less than $100. The closest kits I could find online cost $150. However, as development went on, I managed to get the cost down to a mere $48.43! One big milestone I achieved in budgeting was the motor. The standard Petamentor uses a high-torque 12V 3RPM DC motor, with the cheapest one I could find being $10. However, using smart engineering, I made a diabolical 30:1 gear ratio, allowing me to use much cheaper 28BYJ-48 stepper motors (which only cost $3 each!) Additionally, using the DC motors would have forced me to buy expensive 12V power modules, which generally cost $15 dollars each. Avoiding that constraint, I could use simpler 12V 5A power supplies that cost only $8.
+
+Something that I am proud of in the Upcycler is its dual-mode UI. While you use the Upcycler in its Running mode, you may hear periodical pauses in the motor's humming. Those pauses are caused when the Arduino Uno R3 switches from outputting commands to reading information from the thermistor. It does not have the capability to do both at the same time. Even worse was the joystick. With the constant updates the Arduino needs from the joystick to make navigation smooth, the motor would hardly run at all! To fix this problem, I cleverly separated the code into two parts: a menu mode and a Running mode. In the menu mode, all the Arduino does is read info. It can check the thermistor much faster than in the Running mode, and you can use the Joystick freely. However, when you switch over to Running mode, the joystick is mostly disabled. Instead, the Arduino can focus on outputs, like the motor and the MOSFET powering the heater. However, there are still occasional pauses to check the heat block's temperature (hence the periodical pauses). I also integrated the exit feature into that pause, so if you are holding the joystick down at the moment of the reading, you will exit back into menu mode. I am proud of this workaround I made in the code because I would have had to use a more powerful chip (or two Arduinos!) without it. I managed to fully capitalize on the power of a weak chip to fulfill my criteria.
+
+![Another image of the completed Upcycler V3](https://stardance.hackclub.com/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsiZGF0YSI6ODc2MDIsInB1ciI6ImJsb2JfaWQifX0=--c31c2ff02727d5c16557d0cf270926f7c3b5670a/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2xpbWl0IjpbMTYwMCw5MDBdLCJzYXZlciI6eyJzdHJpcCI6dHJ1ZSwicXVhbGl0eSI6NzV9fSwicHVyIjoidmFyaWF0aW9uIn19--3bc8a2c9d65e3b087c0c0b37dcfb642bb247bc73/WIN_20260627_12_28_33_Pro.jpg)
